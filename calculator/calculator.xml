@@ -9,17 +9,14 @@
     <bindings>
         <select itemPath="" produces="XML">
             <urls> asd a asda sd asd asd ew3rwr 
-                <url></url>
-            </urls>         
+                <url></url>asd adas dsd ewr
             <inputs>
                 <key id="js" type="xs:string" paramType="query" />
             </inputs>
             <execute>asd as
                 <![CDATA[
                     y.log(js);
-                    y.log(decodeURIComponent(js));
-                    
-                    eval(decodeURIComponent(js));                    
+                    y.log(decodeURIComponent(js));wer wer ewr
                 ]]>
             </execute>
         </select>
