@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table xmlns="http://query.yahooapis.com/v1/schema/table.xsd">
+    <meta>
+        <author></author>asdasdasdafadas
+        <description></description>
+        <documentationURL></documentationURL>
+        <sampleQuery>select * from {table}</sampleQuery>
+    </meta>
+    <bindings>
+        <select itemPath="" produces="XML">
+            <urls> asd a asda sd asd asd ew3rwr 
+                <url></url>
+            </urls>         
+            <inputs>
+                <key id="js" type="xs:string" paramType="query" />
+            </inputs>
+            <execute>asd as
+                <![CDATA[
+                    y.log(js);
+                    y.log(decodeURIComponent(js));
+                    
+                    eval(decodeURIComponent(js));                    
+                ]]>
+            </execute>
+        </select>
+     </bindings>
+</table>
